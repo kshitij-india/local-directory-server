@@ -1,7 +1,7 @@
 {
   "name": "local-directory-server",
   "version": "1.0.0",
-  "description": "An http static server written in NodeJS which serves file from the local directory served-directory",
+  "description": "An http static server written in NodeJS which serves file from the local directory named served-directory",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
