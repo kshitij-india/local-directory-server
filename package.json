@@ -1,0 +1,17 @@
+{
+  "name": "local-directory-server",
+  "version": "1.0.0",
+  "description": "local-directory-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index"
+  },
+  "author": "Kshitij Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  }
+}
