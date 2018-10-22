@@ -1,6 +1,6 @@
 #local-directory-server#
 
-An http static server written in NodeJS which serves file from the local directory named "served-directory"
+An http static server written in NodeJS which serves files from the local directory named "served-directory".
 
 ##Installation and getting started##
 
