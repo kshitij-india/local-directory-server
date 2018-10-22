@@ -20,7 +20,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/kshitijjain/local-directory-server.git"
+    "url": "https://bitbucket.org/kshitijjain/local-directory-server"
   },
   "homepage": "https://bitbucket.org/kshitijjain/local-directory-server"
 }
