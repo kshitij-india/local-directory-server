@@ -4,7 +4,7 @@
   "description": "An http static server written in NodeJS which serves file from the local directory named served-directory",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --timeout 10000",
     "start": "node index"
   },
   "author": "Kshitij Jain",
