@@ -1,15 +1,15 @@
-#local-directory-server#
+# local-directory-server #
 
 An http static server written in NodeJS which serves files from the local directory named "served-directory".
 
-##Installation##
+## Installation ##
 
 To install, first clone the repository and install the npm modules.
 ```bash
 git clone https://bitbucket.org/kshitijjain/local-directory-server.git
 npm install
 ```
-##Getting Started##
+## Getting Started ##
 Start the server using `npm start` command
 ```bash
 npm start
@@ -29,7 +29,7 @@ To open index.html, there is no need to give path:
 http://localhost:3001/
 ```
 
-##Unit Testing##
+## Unit Testing ##
 Unit test cases are written in mocha and chai. They are located in `test` directory.
 To start the testing environment:
 ```bash
