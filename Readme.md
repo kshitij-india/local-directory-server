@@ -4,7 +4,7 @@ An http static server written in NodeJS which serves files from the local direct
 
 ##Installation##
 
-To get started, first clone the repository and install the npm modules.
+To install, first clone the repository and install the npm modules.
 ```bash
 git clone https://bitbucket.org/kshitijjain/local-directory-server.git
 npm install
