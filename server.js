@@ -37,9 +37,11 @@ var server= http.createServer(function(req, res){
     });
 });
 
-exports.listen= function(port){
+exports.listen= function(port, callback){
     server.listen(port, function(){
         console.log(`Directory 'served-directory' hosted on port ${port}. Naivgate to http://localhost:${port}/fileName to proceed`);
+
+        if(callback) callback();
     });
 };
 

@@ -6,8 +6,10 @@ var server= require('../server');
 
 describe('tests for a static server serving the directory "served-dierctory"', function(){
 
-    before('start the server', function(){
-        server.listen(3001);
+    before('start the server', function(done){
+        server.listen(3001, function(){
+            done();
+        });
     });
 
     describe('it should serve the correct file from the directory according to path', function(){
